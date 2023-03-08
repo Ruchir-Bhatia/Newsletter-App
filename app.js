@@ -5,7 +5,7 @@ const client = require('@mailchimp/mailchimp_marketing')
 
 const app = express();
 
-client.setConfig({apiKey: "25c409c394cf2c7c3a0c34fdfd451a5a-us21",  server: "us21",});
+client.setConfig({apiKey: "78817e289eaa0d0cafe7a1139dedd1f6-us21",  server: "us21",});
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
